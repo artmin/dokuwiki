@@ -11,7 +11,7 @@
  *   php -S localhost:8000 index.php
  *
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
- * @author     Andreas Gohr <andi@splitbrain.org>
+ * @author     Martin Schiel <it@artmin.de>
  */
 if (php_sapi_name() != 'cli-server') {
     if (!defined('DOKU_INC')) define('DOKU_INC', dirname(__FILE__) . '/');
